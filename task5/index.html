@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Задание 5</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <div id="chat">
+                <h1>Чат</h1>
+                <div class="container">
+                    <form id="enteredText" action="#">
+                        <label>
+                            <input type="text"  name="todo" id="send" class="js-input" placeholder="Введите текст" value="">
+                        </label>
+                        <button type="submit" class="js-btn-send">
+                            Отправить
+                        </button>
+                        <!-- <input type="text" name="todo" id="send" class="js-input"> -->
+                        <!-- <button type="submit" class="js-btn-send">Отправить</button> -->
+                    </form>
+                    <button class="js-btn-geo">Гео-локация</button>
+                </div>
+                <!-- <input type="text" name="todo" id="receive" class="js-input"> -->
+                <div name="todo" id="receive" class="js-input"></div>
+            </div>
+
+            <div id="output"></div>
+        </main>
+    </body>
+<script src="script.js"></script>
+</html>
